@@ -1,0 +1,14 @@
+generate/generate.c
+-O3
+-Wall
+-Wcast-align
+-Wcast-qual
+-Wconversion
+-Wextra
+-Wmissing-prototypes
+-Wpedantic
+-Wpointer-arith
+-Wshadow
+-march=native
+-o generate_mcm
+-std=c2x
