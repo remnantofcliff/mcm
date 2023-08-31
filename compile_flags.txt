@@ -1,4 +1,5 @@
-generate/generate.c
+test/test.c
+-Iinclude
 -O3
 -Wall
 -Wcast-align
@@ -10,5 +11,5 @@ generate/generate.c
 -Wpointer-arith
 -Wshadow
 -march=native
--o generate_mcm
+-o TEST
 -std=c2x
